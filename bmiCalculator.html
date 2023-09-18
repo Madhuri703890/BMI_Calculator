@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <style>
+      form {
+        width: 500px;
+        height: 450px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        position: static;
+        align-items: center;
+        
+      }
+      input[type="text"]
+       {
+        width: 90%;
+        padding: 10px 10px 10px 10px;
+
+        margin: 10px 10px 10px 20px;
+        box-sizing: border-box;
+        /*border-color: aqua;*/
+        background-color: bisque;
+      }
+      input[type="button"]:hover {
+        color: burlywood;
+      }
+      input[type="button"] {
+        background-color: #4caf50;
+        border-radius: 8px;
+        color:white;
+        font-size: large;
+        font-family: cursive;
+        padding: 10px 10px 10px 10px;
+
+        margin: 5px 5px 5px 20px;
+        width: 135px;
+      }
+      h3 {
+        font-family: cursive;
+        align-items: center;
+        padding: 5px 10px 5px 10px;
+        margin: 5px 10px 5px 10px;
+        color: cadetblue;
+        font-size: large;
+      }
+      h1 {
+        padding-left: 25%;
+        color: cadetblue;
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      /*Form Center Alignment*/
+      .form-center form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="form-center">
+      <form action="">
+        <h1>BMI calculator</h1>
+
+        <h3>Enter Weight</h3>
+        <input type="text" value="Enter Weight" />
+        <h3>Enter Height</h3>
+        <input type="text" value="Enter Height" />
+        <h3>Your BMI</h3>
+
+        <input type="text" value="" />
+        <br>
+        <input type="button" value="Calculate BMI" id="buttonFont" />
+        <input type="button" value="Reset BMI" id="buttonFont" />
+        <input type="button" value="Exit" id="buttonFont" />
+
+
+        
+      </form>
+    </div>
+  </body>
+</html>
